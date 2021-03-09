@@ -4,7 +4,7 @@
   "description": "Exercises covering basic testing with Jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --bail"
+    "test": "jest --verbose --bail --watch"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
     "eslint-plugin-prettier": "^3.1.1",
     "jest": "^24.9.0",
     "prettier": "1.18.2"
+  },
+  "dependencies": {
+    "yargs": "^13.3.0"
   }
 }
